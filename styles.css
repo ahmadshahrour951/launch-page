@@ -1,15 +1,22 @@
 body {
-  color:red;
+  color: #484848;
 }
 
 .navbar {
   padding 1rem;
-  background-color: blue;
+  background-color: #429bb8;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #429bb8;
+  border-color: #429bb8;
 }
 
 .btn-primary:hover {
-  background-color: blue;
+  background-color: #429bb8;
   color: white;
+  border-color: #429bb8;
 }
 
 .hero-background-img {
@@ -22,7 +29,7 @@ body {
 .hero-background-img:after {
   content: "";
   position: absolute;
-  background-image: url("erik-jan-leusink-lq0O2PD2NQk-unsplash.jpg");
+  background-image: url("alvan-nee-ZCHj_2lJP00-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -32,4 +39,8 @@ body {
   bottom: 0;
   z-index: -1;
   opacity: 0.5; /* Tone the image down further by giving it transparency */
+}
+
+.bg-primary {
+  background-color: #429bb8 !important;
 }
